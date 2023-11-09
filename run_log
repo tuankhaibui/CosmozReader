@@ -1,0 +1,39 @@
+Cosmoz setup for NaI
+- Sampling speed: 2MS/s 
+- Rising threshold triggere with a treshold of 9000
+- Pretrigger length: 16
+- Posttrigger length: 192
+
+Cosmoz setup for 3He
+- Sampling speed: 20MS/s 
+- falling threshold triggere with a treshold of 8000
+
+Below is the format of the run_log: 
+<run_number>: <det>, <run_type>, <target>, <duration>, <other notes>
+
+run010: NaI, calibration run, source 137Cs, length 60s, floor setup, HV=603
+run011: NaI, calibration run, source 137Cs, length 6s, floor setup, HV=603
+run012: NaI, calibration run, source 137Cs, length 300s, floor setup, HV=603
+run013: NaI, calibration run, source 60Co,  length 600s, floor setup, HV=603
+run014: NaI, normal run, target floor, length 3600s, HV=602
+run015: NaI, normal run, target wall to KamLAND, length 60s, HV=603
+run016: NaI, normal run, target wall to KamLAND, length 3600s, HV=603
+run017: NaI, normal run, background, length 54000s
+run018: NaI, normal run, background, length 18000s
+run019: 3He, normal run, test, length 3600s, Pretrigger length 16, Posttrigger length 255
+run020: 3He, normal run, test, length 3600s, Pretrigger length 32, Posttrigger length 255
+run021: NaI, normal run, background, length 86400s
+run022: NaI, normal run, background, length 86400s, the data file is probably broken
+run023: NaI, normal run, background, length 172800s
+run024: NaI, normal run, background, length 172800s
+run025: NaI, calibration run, source 60Co,  length 360s, ATT=0dB, HV=601, May 3, wall setup
+run026: NaI, calibration run, source 60Co,  length 360s, ATT=4dB, HV=601, May 3, wall setup
+run027: NaI, calibration run, source 137Cs,  length 180s, ATT=4dB, HV=601, May 3, wall setup
+run028: NaI, normal run, target wall to KamLAND, length 3600s, ATT=4dB, HV=601, May 3
+run029: NaI, normal run, target wall to KamLAND, length 57600s, ATT=4dB, HV=601, May 3
+run030: NaI, normal run, target wall to KamLAND, length 7200s, ATT=4dB, HV=601, May 4
+run031: NaI, normal run, target floor, length 72000s, ATT=4dB, HV=602, May 4
+run032: NaI, normal run, target floor, length 3600s, ATT=4dB, HV=602, May 4
+run033: NaI, normal run, target floor, length 3600s, ATT=4dB, HV=602, May 5
+run034: NaI, normal run, background, length 85400s, ATT=4dB, HV=600, May 5
+run035: NaI, normal run, background, length 85400s, ATT=4dB, HV=600, May 6
